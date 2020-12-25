@@ -64,16 +64,17 @@ li {
 }
 .menu {
     position: relative;
-}
-.menu .link {
-    background-position: -132px -38px;
-    background-image: url(images/icons.png);
-    background-size: 528px 68px;
-    outline: none;
-    vertical-align: middle;
-    box-sizing: border-box;
-    height: 30px;
     width: 30px;
+    height: 30px;
+}
+.menu-icon {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #707070;
 }
 .footer .link {
     font-size: 14px;
